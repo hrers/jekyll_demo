@@ -20,7 +20,7 @@ categories: 源码学习
 
      * gradle 的一些配置
 
-       ![](https://gitee.com/dlulianzi/blogimage2/raw/master/img/20221105140908.png)
+       ![](..\_site\assets\img\20221105140908.png)
 
      * Windows环境要注意的一些问题
 
