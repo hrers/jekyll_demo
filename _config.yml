@@ -60,3 +60,6 @@ navbar-links:
   关于: "about"
   分类: "category"
   搜索: "search"
+
+paginate: 10
+paginate_path: "/_posts"
