@@ -55,6 +55,12 @@
 </ol>
 <h2 id="最后-一定要注意看日志"><a href="#最后-一定要注意看日志" class="headerlink" title="最后: 一定要注意看日志"></a>最后: 一定要注意看日志</h2><p>有时候很简单的配置问题, 或者编码实现的问题, 其实日志已经很清楚明白讲述了异常的位置, 根据信息去到对应的位置看代码, 大部分情况下都可以发现问题. 根据报错就能知道, 哪里发生了空指针或者其他异常, 然后查看为什么产生了这个空指针, 检查对应的配置参数是否配置或者格式是否正确, 这是最高效, 性价比最高的排查方式, 要知道发生了什么问题.<br>明白了发生了什么问题, 发生问题的地方一时看不明白为什么发生, 再带着这个明确的问题去 debug, 这样 debug 的时候就不需要管其他东西, 只要专注于问题, 基于问题去 debug, 才能尽可能快速的找到问题原因.<br>否则就算能够找到入口 debug, 但是如果不明确问题, 而且现在的开源软件那么大, 一路debug下来别说使用者, 连开发者自己都可能不是很清晰, 那么长的调用链, 没有明确关注的地方, 要知道问题在哪太难了. 而且知名开源软件一般 bug 都不多, 大部分情况下软件出了问题一般也不是 bug, 如果不明确问题, 往往排查了很久, 最后其实是自己的配置问题, 就是花几分钟调整一下配置的问题. 浪费了时间, 最后只能安慰自己起码收获了教训.</p>
 ]]></content>
+      <categories>
+        <category>实践</category>
+      </categories>
+      <tags>
+        <tag>debug</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -74,5 +80,11 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
 <p><img   src="/images/img.png" ></p>
 ]]></content>
+      <categories>
+        <category>hello-hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
   </entry>
 </search>
